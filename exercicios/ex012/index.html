@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo videos hospedados localmente</h1>
+    <p>Este video está hospedado no meu proprio servidor</p>
+    <video width="500" height="315" poster="imagens/EU-cortado.jpg" controls loop>
+        <source src="midia/Meu-Video4.mkv" type="video/mkv">
+        <source src="midia/Meu-Video5.webm" type="video/webm">
+        <source src="midia/Meu-Video2.mp4" type="video/mp4">
+    </video>
+    <p>Se o navegador não tem compatibilidade com reprodução de videos <a href="midia/Meu-Video4.mkv">Clique aqui</a></p>
+    <h1>Inserindo videos do youtube</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg?si=US8u1bUzZr-z5Z1D" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</body>
+</html>

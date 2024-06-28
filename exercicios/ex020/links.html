@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        .especial::before {
+            content: '\2192';
+        }
+
+        .especial::after {
+            content: '\2190';
+        }
+
+        .especial {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+<li><a href="https://github.com/Danielclll">GitHub</a></li>
+<li><a href="https://www.instagram.com/lima.daniel_c/?next=%2F" target="_blank" rel="external" class="especial">Instagram</a></li>
+<li><a href="https://www.cursoemvideo.com/" target="_blank" rel="external">Site do Curso</a></li>
+    </ul>
+</body>
+</html>

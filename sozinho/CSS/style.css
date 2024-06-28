@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'fontprincipal';
+    src: url('allstar/All\ Star\ Resort.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'fontsec';
+    src: url('philosopher/Philosopher-Bold.ttf') format('opentype');
+}
+
+
+body {
+    background-color: #977390;
+    text-align: center
+}
+
+h1#principal {
+    color: white;
+    background-color: #785589; 
+    font-family: 'fontprincipal', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.basico {
+    color: #AC7B7D;
+}
+
+h2 {
+    text-align: left;
+    color: #dfa4a3;
+    font-family: 'fontsec', 'Times New Roman', Times, serif;
+}
+
+p {
+    color: #0D160B;
+    font-family: 'fontsec', 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color: white;
+    width: 600px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px #785589;
+    border-radius: 10px;
+    margin: auto;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+}

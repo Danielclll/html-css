@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'polar';
+    src: url('polar_snow/Polar\ Snow.otf') format('opentype'), url('polar_snow/Polar\ Snow.ttf') format('truetype'); font-weight: normal; font-style: normal;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+main {
+    background-color: white;
+    box-shadow: 5px 5px 15px aqua;
+    padding: 10px;
+    width: 600px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h1 {
+    color: lightblue;
+    text-align: center;
+    font-family: 'polar', sans-serif;
+    font-size: 3em;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(162, 191, 191);
+    font-family: 'polar', sans-serif;
+}
+
+p {
+    text-align: center;
+    color: rgb(70, 111, 147);
+    font-family: Arial, Helvetica, sans-serif;
+}
