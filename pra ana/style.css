@@ -1,1 +1,14 @@
 @charset "UTF-8";
+
+.video1 {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.video2 {
+    height: 400px;
+    width: 400px;
+    margin-bottom: 50px;
+}
