@@ -61,9 +61,9 @@ header > nav {
 }
 
 .nav1 {
-    text-align: left;
-    margin-left: 320px;
+    text-align: center;
     margin-top: 50px;
+    padding-bottom: 30px;
     
 }
 
