@@ -111,7 +111,8 @@ aside > h3 {
 }
 
 .mapa {
-    max-width: 400px;
+    min-width: 400px;
+    max-width: 300px;
     display: block;
     margin: auto;
 }
