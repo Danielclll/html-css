@@ -13,6 +13,8 @@
             width: 500px;
             
             border-collapse: collapse;
+
+            position: relative;
         }
 
         caption {
@@ -34,6 +36,12 @@
             background-color: gray;
             
             color: white;
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         tbody > tr:nth-child(2n) {
